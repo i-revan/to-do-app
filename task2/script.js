@@ -92,6 +92,7 @@ addBtn.addEventListener("click", function (e) {
         input.value = "";
         addBtn.removeAttribute("disabled");
         clearBtn.removeAttribute("disabled"," ")
+        editBtnClick = false;
         for (
           let index = 0;
           index < document.querySelectorAll(".myBtn").length;
