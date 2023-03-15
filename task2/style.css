@@ -1,0 +1,15 @@
+body{
+    height: 1vh;
+}
+.container{
+    height: 100%;
+}
+.wrapper{
+    padding: 20px;
+    margin-top: 20px;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.col-5{
+    overflow-wrap: break-word;
+}

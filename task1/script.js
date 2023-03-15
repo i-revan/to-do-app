@@ -1,0 +1,160 @@
+var body = document.querySelector("body");
+var div = document.createElement("div");
+div.classList.add("container"); //first container
+div.classList.add("my-3");
+var row1 = document.createElement("div"); //for contain 960 x 360px box
+row1.classList.add("row");
+row1.classList.add("bg-dark");
+row1.style.width = "960px";
+row1.style.height = "360px";
+div.classList.add("d-flex");
+div.classList.add("justify-content-center");
+div.append(row1);
+var column1 = document.createElement("div");
+column1.classList.add("col-12");
+row1.append(column1);
+var heading = document.createElement("h1");
+heading.textContent = "960 x 360px";
+heading.style.color = "white";
+column1.append(heading);
+column1.classList.add("d-flex");
+column1.classList.add("justify-content-center");
+column1.classList.add("align-items-center");
+var container2 = document.createElement("div");
+container2.classList.add("container");
+var row2 = document.createElement("div");
+row2.classList.add("row"); //row for contain columns
+container2.append(row2);
+container2.classList.add("d-flex");
+container2.classList.add("justify-content-center");
+container2.classList.add("align-items-center");
+row2.style.width="960px";
+row2.style.height="360px";
+var column2 = document.createElement("div");
+var column3 = document.createElement("div");
+var column4 = document.createElement("div");
+column2.classList.add("col-4");
+column3.classList.add("col-4");
+column4.classList.add("col-4");
+row2.append(column2);
+row2.append(column3);
+row2.append(column4);
+// Creating of elements of first column of second row starts
+var wrapper = document.createElement("div");
+wrapper.classList.add("bg-light");
+column2.append(wrapper);
+wrapper.style.width = "300px";
+wrapper.style.height ="190px";
+wrapper.style.border = "1px solid black";
+wrapper.classList.add("d-flex");
+wrapper.classList.add("justify-content-center");
+wrapper.classList.add("align-items-center");
+var box = document.createElement("div");
+box.classList.add("bg-dark");
+box.style.width="290px";
+box.style.height="180px";
+var par2 = document.createElement("p");
+par2.classList.add("text-white")
+par2.textContent = "290 x 180px";
+box.classList.add("d-flex");
+box.classList.add("justify-content-center");
+box.classList.add("align-items-center");
+box.append(par2);
+var heading1 = document.createElement("h5");
+heading1.textContent = "Indonectetus facilis";
+heading1.classList.add("text-muted")
+heading1.style.fontStyle = "italic";
+column2.append(heading1);
+var parText = document.createElement("p");
+parText.textContent = "Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.";
+column2.append(parText);
+var link = document.createElement("a");
+link.classList.add("text-warning");
+link.textContent = "Read More >>";
+link.style.textDecoration = "none";
+link.style.float= "right";
+link.style.fontWeight= "600";
+column2.append(link);
+wrapper.append(box);
+// Creating of elements of first column of second row ends
+// Creating of elements of second column of second row starts
+var wrapper2 = document.createElement("div");
+wrapper2.classList.add("bg-light");
+column3.append(wrapper2);
+wrapper2.style.width = "300px";
+wrapper2.style.height ="190px";
+wrapper2.style.border = "1px solid black";
+wrapper2.classList.add("d-flex");
+wrapper2.classList.add("justify-content-center");
+wrapper2.classList.add("align-items-center");
+var box2 = document.createElement("div");
+box2.classList.add("bg-dark");
+box2.style.width="290px";
+box2.style.height="180px";
+var par3 = document.createElement("p");
+par3.classList.add("text-white")
+par3.textContent = "290 x 180px";
+box2.classList.add("d-flex");
+box2.classList.add("justify-content-center");
+box2.classList.add("align-items-center");
+box2.append(par3);
+var heading2 = document.createElement("h5");
+heading2.textContent = "Indonectetus facilis";
+heading2.classList.add("text-muted")
+heading2.style.fontStyle = "italic";
+column3.append(heading2);
+var parText2 = document.createElement("p");
+parText2.textContent = "Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.";
+column3.append(parText2);
+var link2 = document.createElement("a");
+link2.classList.add("text-warning");
+link2.textContent = "Read More >>";
+link2.style.textDecoration = "none";
+link2.style.float= "right";
+link2.style.fontWeight= "600";
+column3.append(link2);
+wrapper2.append(box2);
+//Creating of elements of second column of second row ends
+//Creating of elements of third column of second row starts
+var wrapper3 = document.createElement("div");
+wrapper3.classList.add("bg-light");
+column4.append(wrapper3);
+wrapper3.style.width = "300px";
+wrapper3.style.height ="190px";
+wrapper3.style.border = "1px solid black";
+wrapper3.classList.add("d-flex");
+wrapper3.classList.add("justify-content-center");
+wrapper3.classList.add("align-items-center");
+var box3 = document.createElement("div");
+box3.classList.add("bg-dark");
+box3.style.width="290px";
+box3.style.height="180px";
+var par4 = document.createElement("p");
+par4.classList.add("text-white")
+par4.textContent = "290 x 180px";
+box3.classList.add("d-flex");
+box3.classList.add("justify-content-center");
+box3.classList.add("align-items-center");
+box3.append(par4);
+var heading3 = document.createElement("h5");
+heading3.textContent = "Indonectetus facilis";
+heading3.classList.add("text-muted")
+heading3.style.fontStyle = "italic";
+column4.append(heading3);
+var parText3 = document.createElement("p");
+parText3.textContent = "Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.";
+column4.append(parText3);
+var link3 = document.createElement("a");
+link3.classList.add("text-warning");
+link3.textContent = "Read More >>";
+link3.style.textDecoration = "none";
+link3.style.float= "right";
+link3.style.fontWeight= "600";
+column4.append(link3);
+wrapper3.append(box3);
+//Creating of elements of third column of second row ends
+column2.classList.add("px-0");
+column3.classList.add("px-0");
+column4.classList.add("px-0");
+body.append(div);
+body.append(container2);
